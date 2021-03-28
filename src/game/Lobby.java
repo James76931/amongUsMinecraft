@@ -345,7 +345,7 @@ public class Lobby {
 		player.setScoreboard(Bukkit.getScoreboardManager().getMainScoreboard());
 		
 		player.teleport(locPlayers.get(player));
-		player.setGameMode(GameMode.SURVIVAL);
+		player.setGameMode(GameMode.ADVENTURE);
 		player.removePotionEffect(PotionEffectType.NIGHT_VISION);
 		player.getInventory().clear();
 		player.getInventory().setHeldItemSlot(0);
